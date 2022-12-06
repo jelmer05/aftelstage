@@ -7,7 +7,11 @@ html {
   height: 100vh;
   font-family: "Raleway", sans-serif;
   background-color: black;
-  color: white;
+  color: rgb(208, 167, 167);
+}
+a {
+  color: rgb(255, 206, 206);
+  text-decoration: none;
 }
 .container {
   height: 100vh;
@@ -22,4 +26,7 @@ html {
 }
 #demo {
   font-size: 4em;
+}
+.weeks {
+  text-align: center;
 }
