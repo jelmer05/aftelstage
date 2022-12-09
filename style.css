@@ -30,3 +30,8 @@ a {
 .weeks {
   text-align: center;
 }
+@media screen and (max-width: 504px) {
+  #demo {
+    font-size: 2em;
+  }
+}
