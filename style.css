@@ -148,3 +148,17 @@ a {
     border-radius: 50%;
   }
 }
+/* Your existing CSS code */
+
+/* Add a media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust the font size for mobile devices */
+  }
+
+  .context h1,
+  a,
+  p {
+    font-size: 30px; /* Adjust the font size for headings, links, and paragraphs on mobile devices */
+  }
+}
